@@ -1,4 +1,4 @@
-# pod_plus
+# PodPlus App
 
 A new Flutter project.
 
