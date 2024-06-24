@@ -16,7 +16,7 @@ ThemeData lightColorScheme = ThemeData(
       trackColor: WidgetStatePropertyAll(green),
       trackOutlineColor: WidgetStatePropertyAll(green)
     )
-  );
+);
 
 ThemeData darkColorScheme = ThemeData(
     brightness: Brightness.dark,

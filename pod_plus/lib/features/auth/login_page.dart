@@ -119,7 +119,7 @@ class _LoginPageState extends State<LoginPage> {
                 Text("Don’t have an account?", style: context.textColor),
                 SizedBox(width: 5.w),
                 GestureDetector(
-                  onTap: () => context.push(Routes.sign),
+                  onTap: () => context.pushReplacement(Routes.sign),
                   child: const Text(
                     "Sign up!",
                     style: TextStyle(

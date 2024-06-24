@@ -94,7 +94,7 @@ class _SignPageState extends State<SignPage> {
                 Text("Already have account?", style: context.textColor),
                 SizedBox(width: 5.w),
                 GestureDetector(
-                  onTap: () => context.push(Routes.login),
+                  onTap: () => context.pushReplacement(Routes.login),
                   child: const Text(
                     "Login!",
                     style: TextStyle(
